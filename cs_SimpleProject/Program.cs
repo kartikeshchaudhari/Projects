@@ -10,6 +10,7 @@ namespace cs_SimpleProject
             operation op = new operation();
             double rRaiseTo = op.RaiseTo(10, 3);
             Console.WriteLine($"RaiseTo of given number are {rRaiseTo}");
+            Console.WriteLine();
         }
     }
     public class operation
@@ -27,6 +28,13 @@ namespace cs_SimpleProject
             double z = Math.Pow(x, y);
             return z;
         }
-
+         public int factorial(int x)
+        {
+            int fact = 1;
+            for(int i=1;i<=x;i++)
+            {
+                fact
+            }
+        }
     }
 }
